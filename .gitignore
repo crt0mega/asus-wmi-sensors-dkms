@@ -1,0 +1,10 @@
+debian/debhelper*
+debian/.debhelper
+debian/*.log
+debian/*.debhelper
+debian/*.substvars
+debian/debhelper-build-stamp
+debian/asus-wmi-sensors-dkms
+debian/asus-wmi-sensors-dkms*
+debian/files
+.pc

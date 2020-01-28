@@ -1,0 +1,15 @@
+Source: asus-wmi-sensors-dkms
+Section: unknown
+Priority: optional
+Maintainer: crt0mega <crt0mega@c-r-t.tk>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/asus-wmi-sensors-dkms
+#Vcs-Git: https://salsa.debian.org/debian/asus-wmi-sensors-dkms.git
+
+Package: asus-wmi-sensors-dkms
+Architecture: all
+Depends: ${misc:Depends}, dkms
+Description: DKMS module for Linux ASUS WMI Sensor driver.
+ Provides a Linux kernel module "asus_wmi_sensors" that provides sensor readouts via ASUS' WMI interface present in the UEFI of some recent Ryzen motherboards.

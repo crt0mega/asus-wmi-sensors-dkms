@@ -1,0 +1,15 @@
+Patches dkms.conf.am for correct version number usage
+Index: asus-wmi-sensors-dkms/src/dkms.conf.am
+===================================================================
+--- asus-wmi-sensors-dkms.orig/src/dkms.conf.am
++++ asus-wmi-sensors-dkms/src/dkms.conf.am
+@@ -1,7 +1,7 @@
+ MAKE="make TARGET=${kernelver}"
+ CLEAN="make clean"
+-PACKAGE_NAME="asus-wmi-sensors-dkms-git"
+-PACKAGE_VERSION="to be filled by make dkms"
++PACKAGE_NAME="asus-wmi-sensors-dkms"
++PACKAGE_VERSION="@VERSION@"
+ BUILT_MODULE_NAME[0]="asus-wmi-sensors"
+ DEST_MODULE_LOCATION[0]="/kernel/drivers/hwmon/asus-wmi-sensors"
+ AUTOINSTALL="yes"

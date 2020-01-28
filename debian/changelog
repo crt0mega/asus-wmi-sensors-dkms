@@ -1,0 +1,11 @@
+asus-wmi-sensors-dkms (20200128-1+crt1) UNRELEASED; urgency=medium
+
+  * First package upload
+
+ -- crt0mega <crt0mega@curie.c-r-t.tk>  Tue, 28 Jan 2020 20:13:35 +0100
+
+asus-wmi-sensors-dkms (20200128-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- crt0mega <crt0mega@c-r-t.tk>  Tue, 28 Jan 2020 16:44:49 +0100
